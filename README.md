@@ -7,7 +7,10 @@
 
 ## Description
 
+  This project delves into machine learning with crytpo. The project has multiple components where models are setup and are fit. First, elbow curves for the original and PCA models are calculated.
 
+  Original:
+  ![elbow](/Images/elbow_plot.png)
 
 
 
@@ -27,7 +30,7 @@
 
 ## 1. Installation
 
-  If you would like to clone the repository, type "git clone .
+  If you would like to clone the repository, type "git clone https://github.com/kheller18/crypto-machine-learning.git".
   In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
 
   * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our SPD data
@@ -43,8 +46,6 @@
   * [PyVizlot](https://pyviz.org/) -  Python visualization package that provides a single platform for accessing multiple visualization libraries. Our most heavily used library is:
 
     * [hvplot.pandas](https://hvplot.holoviz.org/user_guide/Introduction.html) - *version 0.7.2* - For the interactive visualization of the crime data.
-
-  * [Voilà](https://github.com/voila-dashboards/voila) - This will allow us to view our crime analysis on the web browser.
 
 
 ## 2. Usage
