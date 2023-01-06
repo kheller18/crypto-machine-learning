@@ -1,4 +1,4 @@
-# Crypto Macine Learning
+# Crypto Machine Learning
 
 ![license badge](
       https://shields.io/badge/license-mit-blue
@@ -7,7 +7,7 @@
 
 ## Description
 
-  This project delves into machine learning with crytpo. The project has multiple components where models are setup and are fit. First, elbow curves for the original and PCA models are calculated.
+  This project delves into machine learning with crypto. The project has multiple components where models are setup and are fit. In essance, we apply the unsupervised learning technique of K-Means clustering to group cryptocurrencies by their performance in an effort to create profitable portfolio recommendations.  You are able to see the different elbow plots, which are used to then find the k value for the KMeans scatter plots for original and PCA models respectively.
 
   Original:
   ![elbow](/Images/elbow_plot.png)
@@ -25,7 +25,7 @@
 
 ## Table of Contents
 
-- [Crypto Macine Learning](#crypto-macine-learning)
+- [Crypto Machine Learning](#crypto-machine-learning)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [1. Installation](#1-installation)
@@ -66,8 +66,6 @@
       pip install hvplot
       pip install jupyterlab
       conda install -c pyviz hvplot
-      conda install -c voila
-      conda list nodejs
 
       ```
 
@@ -113,7 +111,6 @@
 ## 6. Deployment
   + There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via two different ways:
     + `Jupyter Lab`: Navigate to the root directory and type "jupyter lab crypto_investments.ipynb"
-    + `Voilà`: Navigate to the root directory and type "voila crypto_investments.ipynb"
 
 
 ## 7. Contact
