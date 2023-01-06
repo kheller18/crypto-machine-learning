@@ -18,7 +18,7 @@
   PCA:
   ![pca elbow](/Images/elbow_plot_pca.png)
 
-  Then, using the k value from the original elbow plot, we use KMeans model to produce a scatter plot and visualize the inertia.
+  Then, using the k value from the PCA elbow plot, we use KMeans model to produce a scatter plot and visualize the inertia.
   ![pca scatter](/Images/scatter_pca.png)
 
 
