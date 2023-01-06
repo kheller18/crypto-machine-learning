@@ -1,8 +1,6 @@
 # Crypto Machine Learning
 
-![license badge](
-      https://shields.io/badge/license-mit-blue
-      )
+![license badge](https://shields.io/badge/license-mit-blue)
 
 
 ## Description
@@ -20,6 +18,8 @@
 
   Then, using the k value from the PCA elbow plot, we use KMeans model to produce a scatter plot and visualize the inertia.
   ![pca scatter](/Images/scatter_pca.png)
+
+  From the scatter plots, we can see that the inertia using PCA is lesser than with the original dataset.
 
 
 
