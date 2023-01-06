@@ -12,6 +12,9 @@
   Original:
   ![elbow](/Images/elbow_plot.png)
 
+  PCA:
+  ![pca elbow](/Images/elbow_plot_pca.png)
+
 
 
 ## Table of Contents
